@@ -1,6 +1,11 @@
 # DiminishedRhythmsPathology
 Code to reproduce figures from a paper showing diminished biological rhythms in pathological tissue from patients with epilepsy. 
 
+Installation (45 minutes):
+- Ensure Python is installed.
+- Install dependencies below.
+- Install MATLAB.
+
 To reproduce figures from the paper, please first clone this repository and download the data from zenodo (https://doi.org/10.5281/zenodo.8289342).
 Place the unzipped data directory in the DiminishedRhythmsPathology directory.
 Then, run the each of the scripts in paper_code/ in order: P1.extract_cycles.py, P2.compute_AUCs.py, P3.plot_AUCs.py, P4.mixedeffects.py, and P5.get_file_brain_image.py.
@@ -24,4 +29,4 @@ seaborn (0.13.1)
 statsmodels (0.14.0)
 
 MATLAB (R2023a)
-
+Tested on Ubuntu 20.04.6 LTS

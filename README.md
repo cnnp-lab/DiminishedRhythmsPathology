@@ -12,3 +12,16 @@ Then, run the each of the scripts in paper_code/ in order: P1.extract_cycles.py,
 - P5.get_file_brain_image.py will generate the data tables needed to plot the power of rhythms across the brain.
 - paper_code/brain_image/matlab_code/plot_brain_maps_figure1b will use the data table to create figure 1b.
 - paper_code/brain_image/matlab_code/plot_brain_maps_figure2b will use the data table to create figure 2b.
+
+Requirements:
+Python (tested on 3.8.1)
+Python Dependencies:
+numpy (1.24.3)
+scipy (1.10.1)
+matplotlib (3.7.1)
+pandas (2.0.3)
+seaborn (0.13.1)
+statsmodels (0.14.0)
+
+MATLAB (R2023a)
+
